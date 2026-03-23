@@ -1,0 +1,50 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build output
+dist/
+build/
+coverage/
+**/dist/
+**/build/
+**/coverage/
+
+# Vite / tooling caches
+**/.vite/
+**/.cache/
+**/.turbo/
+
+# Environment variables (keep example files tracked)
+.env
+.env.*
+**/.env
+**/.env.*
+!**/.env.example
+!**/.env.*.example
+
+# Logs / misc
+*.log
+*.pid
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Other common artifacts
+*.tgz
+*.zip
+*.iml
+
